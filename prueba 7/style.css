@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+button {
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.header {
+    background-image: url(img/fashion-stylish-templates-abstract-shapes-and-line-in-green-pastel-colors-neutral-background-in-minimalist-style-contemporary-illustration-free-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+
+}
+
+.header .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .nav :hover {
+    color: rgb(93, 201, 163);
+}
+
+.header .nav a {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(13, 164, 111);
+    display: flex;
+}
+
+.header .nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    gap: 20px;
+}
+
+.header .titulo {
+    margin: 0px;
+    text-align: center;
+    padding: 100px;
+}
+
+.header .titulo h1 {
+    font-size: 100px;
+    margin-bottom: 25px;
+    color: rgb(10, 82, 57);
+}
+
+.header .titulo p {
+    color: rgb(14, 113, 78);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tien {
+    background-image: url(img/fashion-stylish-templates-abstract-shapes-and-line-in-green-pastel-colors-neutral-background-in-minimalist-style-contemporary-illustration-free-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 104vh;
+    align-items: center;
+    padding: 10;
+}
+
+.tien h3 {
+    text-align: center;
+    padding: 80px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 80px;
+    color: rgb(42, 224, 173);
+    -webkit-text-stroke: 3px rgb(7, 68, 47);
+}
+
+.tien ul {
+    display: flex;
+    text-align: center;
+    gap: 90px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.tien ul li a {
+    border: solid 3px;
+    border-radius: 7px;
+    background-color: rgb(4, 88, 60);
+    border-color: rgb(23, 71, 55);
+    padding: 10px 50px;
+    color: rgb(192, 243, 182);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tien ul li a:hover {
+    background-color: rgb(192, 243, 182);
+    color: rgb(4, 88, 60);
+}
+
+.tien img {
+    margin-bottom: 40px;
+    display: flex;
+    width: 180px;
+
+}
+
+footer {
+    background-color: rgb(139, 231, 201);
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    padding-bottom: 40px;
+    font-size: 20px;
+    color: rgb(2, 26, 18);
+    -webkit-text-stroke: 0.6px rgb(6, 85, 59);
+}
+
+footer a {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(11, 100, 71);
+    margin: 50px 100px;
+    border: solid 3px rgb(2, 36, 24);
+    border-radius: 10px;
+    background-color: rgb(155, 233, 207);
+    padding: 2px 10px;
+}
+
+footer a:hover {
+    color: rgb(147, 231, 203);
+    background-color: rgb(11, 100, 71);
+}
+
+@media screen and (max-width: 768px) {
+    .header .titulo h1 {
+        font-size: 50px;
+    }
+
+    .header .titulo p {
+        font-size: 20px;
+    }
+
+    .header .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header .nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .tien h3 {
+        font-size: 40px;
+        padding: 40px;
+    }
+
+    .tien ul {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .tien img {
+        width: 120px;
+    }
+
+    footer a {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+}
